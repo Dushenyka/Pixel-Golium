@@ -151,10 +151,6 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="src\Go.h" />
-    <ClInclude Include="src\Go_Loadout.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="dependencies\ImGui\imgui.cpp" />
     <ClCompile Include="dependencies\ImGui\imgui_draw.cpp" />
     <ClCompile Include="dependencies\ImGui\imgui_impl_sdl3.cpp" />
@@ -163,6 +159,10 @@
     <ClCompile Include="dependencies\ImGui\imgui_widgets.cpp" />
     <ClCompile Include="own\Go.cpp" />
     <ClCompile Include="own\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="own\Go.h" />
+    <ClInclude Include="own\Go_Loadout.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
